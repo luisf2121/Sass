@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: rgba(34, 136, 192, 0.766);
+    background-image: linear-gradient(to right, rgb(140, 255, 251), rgb(39, 125, 141));
+
+    img{
+        height: 50px;
+        width: auto;
+    }
+}
+.nav-link {
+    font-size: 20px;
+    color: black !important;
+}
+
+/*comienzo esqueleto de nosotros*/
+
+.titulo1-nosotros{
+    text-align: center;
+    text-transform:uppercase;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(61, 156, 147);
+}
+
+.nosotros-container div div{
+
+        .nosotros-text{
+            text-align: center;
+        padding: 10px 20px;
+        overflow: auto;
+        }
+        .nosotros-img {
+        margin: 18px 0;
+        }
+        img {
+        border: 1px solid rgb(49, 111, 220);
+        border-radius: 4px;
+        }
+}
+
+.estilo-nosotros2{
+    margin: 20px 15px;
+
+    .galeria-nosotros{
+        border: 2px solid rgb(39, 125, 141);
+        border-radius: 15px;
+    }
+
+}
+
+.estilo-mapa{
+    margin-top: 25px;
+    
+    .mapa{
+        width: 100%;
+    }
+}
+
+.estilo-tarjeta{
+    margin:30px 5px;
+
+    .img-tarjeta{
+        border: 3px solid rgb(45, 45, 174);
+        border-radius: 15px;
+    }
+}
+
+/*comienza footer*/
+
+.footer{
+    text-align: center;
+    background-color: rgb(39, 125, 141);
+    color: white;
+    padding: 10px;
+
+    .redes{
+        font-size: 35px;
+        letter-spacing: 20px;
+    }
+    i:hover{
+        color: aqua;
+        cursor: pointer;
+    }
+}
+
+/*termina footer*/
